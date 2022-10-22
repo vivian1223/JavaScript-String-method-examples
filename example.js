@@ -7,3 +7,6 @@ const filterAddress = (string) => {
         console.log('It is not a https address')
     }
 }
+
+// filter certain starting condition
+const getUserProductSearchStatus = str => str.startsWith('0910') && str.length === 10;
